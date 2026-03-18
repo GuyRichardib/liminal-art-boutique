@@ -1,2 +1,5 @@
-videos/
-*.mp4
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+EMAIL_MARKETING_COMPLIANCE_KB.md
