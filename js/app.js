@@ -27,47 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// ─── Email Form Handler ───────────────────────────
-// TODO: Replace with MailerLite integration
-const emailForm = document.getElementById('email-form');
-if (emailForm) {
-  emailForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const email = document.getElementById('email-input').value;
-
-    if (!email) return;
-
-    // Show success state
-    const submitBtn = emailForm.querySelector('.email-submit');
-    const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'Check your inbox!';
-    submitBtn.style.background = '#4a7c59';
-    submitBtn.disabled = true;
-
-    // TODO: Send to MailerLite API
-    // fetch('https://api.mailerlite.com/api/v2/subscribers', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //     'X-MailerLite-ApiKey': 'YOUR_API_KEY'
-    //   },
-    //   body: JSON.stringify({
-    //     email: email,
-    //     groups: ['FREE_PRINTS_GROUP_ID']
-    //   })
-    // });
-
-    console.log('Email captured:', email);
-
-    // Reset after 3s
-    setTimeout(() => {
-      submitBtn.textContent = originalText;
-      submitBtn.style.background = '';
-      submitBtn.disabled = false;
-      emailForm.reset();
-    }, 3000);
-  });
-}
+// ─── Email Form ───────────────────────────
+// Handled by MailerLite embedded form (Universal JS + data-form="y9JfD0")
+// Subscribers are added to "Liminal Art - Free Prints" group
+// Automation sends welcome email with 3 Cloudinary download links
 
 
 // ─── Video Carousel: Play on Hover/Tap ────────────
