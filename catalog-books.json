@@ -1,0 +1,65 @@
+{
+  "schema": "PublicBookCatalog/v1",
+  "books": [
+    {
+      "title": "The Halloween Atelier: 50 Intricate Scenes to Color",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Intricate scenes",
+      "asin": "B0HMSD95YQ",
+      "retailer_url": "https://www.amazon.com/dp/B0HMSD95YQ",
+      "cover": "images/editorial-20261016/halloween.webp"
+    },
+    {
+      "title": "Little Impossible Shops: 50 Enchanting Places to Color",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Scene collection",
+      "asin": "B0HLZLWNFH",
+      "retailer_url": "https://www.amazon.com/dp/B0HLZLWNFH",
+      "cover": "images/editorial-20261016/shops.webp"
+    },
+    {
+      "title": "Ancient Egypt: A Coloring Journey",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Intricate scenes",
+      "asin": "B0HMRK16YF",
+      "retailer_url": "https://www.amazon.com/dp/B0HMRK16YF",
+      "cover": "images/editorial-20261016/egypt.webp"
+    },
+    {
+      "title": "Observatory After Hours: 50 Quiet Cosmic Moments to Color",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Scene collection",
+      "asin": "B0H6WL6BK2",
+      "retailer_url": "https://www.amazon.com/dp/B0H6WL6BK2",
+      "cover": "images/editorial-20261016/observatory.webp"
+    },
+    {
+      "title": "Sacred Japan: 50 Bold & Easy Japanese-Inspired Coloring Pages for Adults",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Bold & Easy",
+      "asin": "B0H571ZMXL",
+      "retailer_url": "https://www.amazon.com/dp/B0H571ZMXL",
+      "cover": "images/editorial-20261016/sacred-japan.webp"
+    },
+    {
+      "title": "Mythical Creatures & Legendary Beasts: 50 Bold & Easy Fantasy Coloring Pages for Adults",
+      "author": "Liminal Ink",
+      "language": "en",
+      "format": "paperback",
+      "collection": "Bold & Easy",
+      "asin": "B0H57CGC72",
+      "retailer_url": "https://www.amazon.com/dp/B0H57CGC72",
+      "cover": "images/editorial-20261016/mythical-creatures.webp"
+    }
+  ]
+}

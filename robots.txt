@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://liminalartboutique.com/sitemap.xml
