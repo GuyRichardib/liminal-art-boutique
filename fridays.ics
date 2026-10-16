@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Liminal Ink//Friday Series//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Liminal Ink Fridays
+BEGIN:VEVENT
+UID:2026-10-23-friday@liminalartboutique.com
+DTSTAMP:20261016T170000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Liminal Ink - Palette Friday
+DESCRIPTION:A prepared short feature opens on the website on this date. No purchase is required.
+URL:https://liminalartboutique.com/friday.html#2026-10-23
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-friday@liminalartboutique.com
+DTSTAMP:20261016T170000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Liminal Ink - Palette Friday
+DESCRIPTION:A prepared short feature opens on the website on this date. No purchase is required.
+URL:https://liminalartboutique.com/friday.html#2026-10-30
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-friday@liminalartboutique.com
+DTSTAMP:20261016T170000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Liminal Ink - Palette Friday
+DESCRIPTION:A prepared short feature opens on the website on this date. No purchase is required.
+URL:https://liminalartboutique.com/friday.html#2026-11-06
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-friday@liminalartboutique.com
+DTSTAMP:20261016T170000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Liminal Ink - Palette Friday
+DESCRIPTION:A prepared short feature opens on the website on this date. No purchase is required.
+URL:https://liminalartboutique.com/friday.html#2026-11-13
+END:VEVENT
+END:VCALENDAR
