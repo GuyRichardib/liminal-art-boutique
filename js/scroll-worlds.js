@@ -1,0 +1,1 @@
+(() => {const g=window.gsap,s=window.ScrollTrigger;if(!g||!s||matchMedia('(prefers-reduced-motion:reduce)').matches)return;g.registerPlugin(s);document.querySelectorAll('.cover-garden img').forEach((el,i)=>g.fromTo(el,{y:25+i*12,rotationY:(i-1)*5},{y:-15-i*9,rotationY:0,ease:'none',scrollTrigger:{trigger:'.cover-garden',start:'top bottom',end:'bottom top',scrub:.7}}));})();
