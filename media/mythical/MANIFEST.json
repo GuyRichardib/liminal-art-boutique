@@ -1,0 +1,428 @@
+{
+ "decision": "D-006 (Richard, 17/10), D-008",
+ "book": "mythical",
+ "tool": "G:\\Liminal-Ink\\Motion-2026\\tools\\prepare_book_pages.py",
+ "meta": {
+  "page_px": [
+   1224,
+   1584
+  ],
+  "aplus_public": [
+   7,
+   33,
+   73,
+   89
+  ],
+  "back_samples": [
+   3,
+   53
+  ],
+  "film": {
+   "pdf_page": 89,
+   "art_native_px": [
+    2550,
+    3300
+   ],
+   "art_box_page_width_units": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 1.2941176470588236
+   },
+   "bbox_pt": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+   ],
+   "masks": 6,
+   "colours": [
+    "#B8D8DA",
+    "#B8C5A5",
+    "#D8AD76",
+    "#C48A9C",
+    "#EBD3A2",
+    "#A89AC1"
+   ],
+   "mask_source": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\mythical-creatures\\palette"
+  },
+  "demos": {
+   "7": {
+    "kind": "aplus",
+    "caption": "A Phoenix Among Flames",
+    "art_native_px": [
+     1103,
+     1426
+    ],
+    "bbox_pt": [
+     27.0,
+     29.4805,
+     594.0,
+     762.5195
+    ],
+    "film_masks": null
+   }
+  },
+  "cap_h": 540,
+  "cover_w": 640,
+  "region_rule": "scipy.ndimage.label(min(RGB) >= 200), 4-connectivity, raster order, lines = -1; regions kept when area > 500 px x (native area / 2083x2696); served map = nearest-neighbour sample",
+  "tappable_rule": "closed region (not touching the border, >= 0.03 % of the image) with >= 400 px at 540 px high",
+  "provenance": [
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\SOURCE_MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\mythical-creatures\\MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\mythical-creatures\\COVER_KDP_RECEIPT.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\mythical-creatures\\book-config.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\mythical-creatures\\palette\\MASK_RECEIPT.json"
+  ],
+  "stats": {
+   "film-089": {
+    "native_px": [
+     2550,
+     3300
+    ],
+    "served_px": [
+     417,
+     540
+    ],
+    "components": 769,
+    "regions_in_map": 296,
+    "edge_regions_in_map": 1,
+    "closed_regions": 75,
+    "closed_fraction": 0.1853,
+    "tappable": 21,
+    "tappable_in_served_map": 21,
+    "large_63px": 1,
+    "line_fraction": 0.0619,
+    "edge_fraction": 0.7048,
+    "ink_bbox_px": [
+     401,
+     621,
+     2152,
+     2566
+    ],
+    "film_regions": 25,
+    "film_mask_checks": [
+     {
+      "mask": 0,
+      "pixels": 92227,
+      "components": 1,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 1,
+      "pixels": 139117,
+      "components": 3,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 2,
+      "pixels": 142248,
+      "components": 7,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 3,
+      "pixels": 70774,
+      "components": 4,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 4,
+      "pixels": 130392,
+      "components": 2,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 5,
+      "pixels": 118336,
+      "components": 8,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     }
+    ]
+   },
+   "demo-007": {
+    "native_px": [
+     1103,
+     1426
+    ],
+    "served_px": [
+     418,
+     540
+    ],
+    "components": 479,
+    "regions_in_map": 137,
+    "edge_regions_in_map": 1,
+    "closed_regions": 120,
+    "closed_fraction": 0.3108,
+    "tappable": 45,
+    "tappable_in_served_map": 45,
+    "large_63px": 1,
+    "line_fraction": 0.11,
+    "edge_fraction": 0.575,
+    "ink_bbox_px": [
+     110,
+     19,
+     1004,
+     1401
+    ],
+    "film_regions": 0
+   }
+  }
+ },
+ "files": [
+  {
+   "file": "/media/mythical/cover.webp",
+   "role": "cover",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\mythical-creatures-full-color-front.png",
+   "src_sha256": "7aaf846af48f860d7669dfcb1d41a00da2d7b31cd447f933bfa4fd9f93d88dab",
+   "w": 640,
+   "h": 829,
+   "note": "front cover, public on Amazon",
+   "bytes": 202470,
+   "sha256": "a8336a847ff6145221b7859141ff7f1caf8a742dcf20460a08ea7a839a1fbf28"
+  },
+  {
+   "file": "/media/mythical/page-007.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\page-a.png",
+   "src_sha256": "765846503ac80cf36e73d1bca9eccb4bb66a783eef83d1993798a749c92a5d7d",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Phoenix Among Flames)",
+   "src_detail": {
+    "pdf_page": 7
+   },
+   "bytes": 48046,
+   "sha256": "5b4e42d710a55e0361bdc090db52136b21cb2e64993f359adc1495a9ee190822"
+  },
+  {
+   "file": "/media/mythical/page-008.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\blank-a.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 8
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/mythical/page-033.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\page-b.png",
+   "src_sha256": "9834ebe3b06d11acef08663c78e8d04f2f15e1ace5519b3daa471d30b907d5a9",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Centaur Archer)",
+   "src_detail": {
+    "pdf_page": 33
+   },
+   "bytes": 33778,
+   "sha256": "cb8104fdd203db437e5ad5b48acc67d6b0c91b81b4d91f64be7cadd0363552fd"
+  },
+  {
+   "file": "/media/mythical/page-034.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\blank-b.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 34
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/mythical/page-073.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\page-c.png",
+   "src_sha256": "3397063ae96b489bdda419ba5ebfe9ef2c6eaf2c6dcece9e3c11d6f059cd09d0",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (An Antlered Rabbit)",
+   "src_detail": {
+    "pdf_page": 73
+   },
+   "bytes": 31834,
+   "sha256": "45b9e0b1c40e899b5f8a0b495faaccf2e5531e20640eeb91dba27e7b0c528412"
+  },
+  {
+   "file": "/media/mythical/page-074.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\blank-c.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 74
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/mythical/page-089.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\page-d.png",
+   "src_sha256": "658084017a207ee069169eae9f80db23b70ce60c4b5cdca72ba353004641a6b7",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Decorative Fish)",
+   "src_detail": {
+    "pdf_page": 89
+   },
+   "bytes": 35978,
+   "sha256": "b951552409120fc1c17e3ca38a8a1091afa386be15b0eff5b403c7fd59376e0a"
+  },
+  {
+   "file": "/media/mythical/page-090.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\mythical-creatures\\INTERIOR_KDP_CORRECTED_FONTS_EMBEDDED_V2_104pp.pdf",
+   "src_sha256": "29e0552095261f1e45003a7fe5fba354a86a02f680efdff6b23c3e0e0fa2384a",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back, rendered from the interior PDF at 144 dpi (0 images, 0 text, 0 drawings, all white)",
+   "src_detail": {
+    "pdf_page": 90,
+    "render": "PyMuPDF get_pixmap(dpi=144, csRGB, alpha=False)"
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/mythical/art-089-film.webp",
+   "role": "film-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\art-d.jpeg",
+   "src_sha256": "2dfc84bfbca3c01f8300058f3e9f33d5ad792b1c2c91fb2c9e5f82e5adb6fd2a",
+   "w": 417,
+   "h": 540,
+   "note": "line art of A+ page 89 (the page coloured in the film), tiled mark only, for the film",
+   "src_detail": {
+    "pdf_page": 89,
+    "xref": 136,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     0.0,
+     0.0,
+     612.0,
+     792.0
+    ],
+    "art_box_page_width_units": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 1.0,
+     "h": 1.2941176470588236
+    }
+   },
+   "bytes": 34836,
+   "sha256": "c9f55e0a13c522308746a5f17c769dad8339bd098cf3c34ea30a9890af659f0e"
+  },
+  {
+   "file": "/media/mythical/regions-089-film.png",
+   "role": "film-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\art-d.jpeg",
+   "src_sha256": "2dfc84bfbca3c01f8300058f3e9f33d5ad792b1c2c91fb2c9e5f82e5adb6fd2a",
+   "w": 417,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 21864,
+   "sha256": "9e776a3b421e702fabc61bad2cc8f29a9e9a98196d1ed3b1f262810a0c2bde81"
+  },
+  {
+   "file": "/media/mythical/regions-089-film.json",
+   "role": "film-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\art-d.jpeg",
+   "src_sha256": "2dfc84bfbca3c01f8300058f3e9f33d5ad792b1c2c91fb2c9e5f82e5adb6fd2a",
+   "note": "id, src_id, px, cx, cy at the served size; film / film_order = film mask covering >= 50 % of the region; edge = touches the image border",
+   "bytes": 27183,
+   "sha256": "183754425564c57c9200f69f5091b33954bae8d04bdd3bfd58dc7de313e0a6f4"
+  },
+  {
+   "file": "/media/mythical/art-007.webp",
+   "role": "demo-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\mythical-creatures\\sources\\pdf-page-007.png",
+   "src_sha256": "ae218f3d6f20584c03c7ef15f1ef7b5c71255e2851f3ee4006ebbf7c1602f166",
+   "w": 418,
+   "h": 540,
+   "note": "line art of A+ page 7 (A Phoenix Among Flames), watermarked, for the colour demo",
+   "src_detail": {
+    "pdf_page": 7,
+    "xref": 268,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     27.0,
+     29.4805,
+     594.0,
+     762.5195
+    ],
+    "art_box_page_width_units": {
+     "x": 0.044117696924147264,
+     "y": 0.04817080030254289,
+     "w": 0.9264705383699704,
+     "h": 1.1977760464537377
+    }
+   },
+   "bytes": 52596,
+   "sha256": "522538c67e09912416647559b14616485d6729ae298c8647d38d899a26f50993"
+  },
+  {
+   "file": "/media/mythical/regions-007.png",
+   "role": "demo-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\mythical-creatures\\sources\\pdf-page-007.png",
+   "src_sha256": "ae218f3d6f20584c03c7ef15f1ef7b5c71255e2851f3ee4006ebbf7c1602f166",
+   "w": 418,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 26579,
+   "sha256": "4b176f54cae32f20bb610451aa894a4ef4a894f4cb01542125f9d7e2f195bcaa"
+  },
+  {
+   "file": "/media/mythical/regions-007.json",
+   "role": "demo-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\mythical-creatures\\sources\\pdf-page-007.png",
+   "src_sha256": "ae218f3d6f20584c03c7ef15f1ef7b5c71255e2851f3ee4006ebbf7c1602f166",
+   "note": "id, src_id, px, cx, cy at the served size; edge = touches the image border",
+   "bytes": 12128,
+   "sha256": "abb81f6f970d1fc6cd1fc50aa08d559fd7b70f6c0879dd778aedbef68cff863f"
+  }
+ ],
+ "research_files": [
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\mythical\\lineart-089-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\mythical-creatures\\art-d.jpeg",
+   "src_sha256": "2dfc84bfbca3c01f8300058f3e9f33d5ad792b1c2c91fb2c9e5f82e5adb6fd2a",
+   "w": 1024,
+   "h": 1325,
+   "paper_level_before": 255,
+   "white_fraction_after": 0.5426,
+   "note": "film page line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 647639,
+   "sha256": "6980e4a9944b41152a4b789beda3cb1524c8f2d128bdc733170f2396c27fbb27"
+  },
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\mythical\\lineart-007-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\mythical-creatures\\sources\\pdf-page-007.png",
+   "src_sha256": "ae218f3d6f20584c03c7ef15f1ef7b5c71255e2851f3ee4006ebbf7c1602f166",
+   "w": 1024,
+   "h": 1324,
+   "paper_level_before": 254,
+   "white_fraction_after": 0.6008,
+   "note": "demo drawing line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 910076,
+   "sha256": "12b296f74b9e5d05fb6cc340321d97cef7294b2c1164f6bda11b94ec6e09c3d9"
+  }
+ ]
+}

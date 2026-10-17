@@ -1,0 +1,428 @@
+{
+ "decision": "D-006 (Richard, 17/10), D-008",
+ "book": "sacred-japan",
+ "tool": "G:\\Liminal-Ink\\Motion-2026\\tools\\prepare_book_pages.py",
+ "meta": {
+  "page_px": [
+   1224,
+   1584
+  ],
+  "aplus_public": [
+   21,
+   27,
+   41,
+   73
+  ],
+  "back_samples": [
+   3,
+   53
+  ],
+  "film": {
+   "pdf_page": 73,
+   "art_native_px": [
+    2550,
+    3300
+   ],
+   "art_box_page_width_units": {
+    "x": 0.0,
+    "y": 0.0,
+    "w": 1.0,
+    "h": 1.2941176470588236
+   },
+   "bbox_pt": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+   ],
+   "masks": 6,
+   "colours": [
+    "#986E6D",
+    "#E6D0A6",
+    "#AAB8B7",
+    "#88A38B",
+    "#EDDADB",
+    "#B3C49D"
+   ],
+   "mask_source": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\sacred-japan\\palette"
+  },
+  "demos": {
+   "41": {
+    "kind": "aplus",
+    "caption": "A Fox at the Shrine Gate",
+    "art_native_px": [
+     2550,
+     3300
+    ],
+    "bbox_pt": [
+     0.0,
+     0.0,
+     612.0,
+     792.0
+    ],
+    "film_masks": null
+   }
+  },
+  "cap_h": 540,
+  "cover_w": 640,
+  "region_rule": "scipy.ndimage.label(min(RGB) >= 200), 4-connectivity, raster order, lines = -1; regions kept when area > 500 px x (native area / 2083x2696); served map = nearest-neighbour sample",
+  "tappable_rule": "closed region (not touching the border, >= 0.03 % of the image) with >= 400 px at 540 px high",
+  "provenance": [
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\SOURCE_MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\sacred-japan\\MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\sacred-japan\\COVER_KDP_RECEIPT.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\sacred-japan\\book-config.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\sacred-japan\\palette\\MASK_RECEIPT.json"
+  ],
+  "stats": {
+   "film-073": {
+    "native_px": [
+     2550,
+     3300
+    ],
+    "served_px": [
+     417,
+     540
+    ],
+    "components": 1163,
+    "regions_in_map": 321,
+    "edge_regions_in_map": 1,
+    "closed_regions": 91,
+    "closed_fraction": 0.0949,
+    "tappable": 11,
+    "tappable_in_served_map": 11,
+    "large_63px": 0,
+    "line_fraction": 0.0788,
+    "edge_fraction": 0.7709,
+    "ink_bbox_px": [
+     434,
+     848,
+     2116,
+     2431
+    ],
+    "film_regions": 25,
+    "film_mask_checks": [
+     {
+      "mask": 0,
+      "pixels": 13418,
+      "components": 2,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 1,
+      "pixels": 39687,
+      "components": 3,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 2,
+      "pixels": 203281,
+      "components": 5,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 3,
+      "pixels": 51782,
+      "components": 7,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 4,
+      "pixels": 106090,
+      "components": 4,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 5,
+      "pixels": 34900,
+      "components": 4,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     }
+    ]
+   },
+   "demo-041": {
+    "native_px": [
+     2550,
+     3300
+    ],
+    "served_px": [
+     417,
+     540
+    ],
+    "components": 296,
+    "regions_in_map": 133,
+    "edge_regions_in_map": 1,
+    "closed_regions": 83,
+    "closed_fraction": 0.3138,
+    "tappable": 35,
+    "tappable_in_served_map": 35,
+    "large_63px": 2,
+    "line_fraction": 0.0576,
+    "edge_fraction": 0.6166,
+    "ink_bbox_px": [
+     287,
+     638,
+     2263,
+     2659
+    ],
+    "film_regions": 0
+   }
+  }
+ },
+ "files": [
+  {
+   "file": "/media/sacred-japan/cover.webp",
+   "role": "cover",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\sacred-japan-full-color-front.png",
+   "src_sha256": "bcbc2bfc44cabee44185c5aa32c6c5fed2c683a8fe4907c2115645beb16dd075",
+   "w": 640,
+   "h": 829,
+   "note": "front cover, public on Amazon",
+   "bytes": 169386,
+   "sha256": "b36792ed59a70a3a40e9d18169d26643a3ff992085dac9e1f2b37396d332d0a5"
+  },
+  {
+   "file": "/media/sacred-japan/page-021.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\page-a.png",
+   "src_sha256": "54a70d92eac9145087e5deffe93f001622f320105bb03af5916ffece4d6ce4b5",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Tea Setting)",
+   "src_detail": {
+    "pdf_page": 21
+   },
+   "bytes": 22940,
+   "sha256": "48eb1f78628105badd9ea141a26e4d28bef7839d25f35869c7e282c64f8e5e55"
+  },
+  {
+   "file": "/media/sacred-japan/page-022.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\blank-a.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 22
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/sacred-japan/page-027.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\page-b.png",
+   "src_sha256": "ac9bec59c878965a36e97256657c3430e90820f6c0fca2987f57a3f92e801e57",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Bonsai Tree)",
+   "src_detail": {
+    "pdf_page": 27
+   },
+   "bytes": 37486,
+   "sha256": "4d3278b9d9c725b0d68b42e41c31ff753d24f144f6e85dc7323c193452e2f67a"
+  },
+  {
+   "file": "/media/sacred-japan/page-028.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\blank-b.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 28
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/sacred-japan/page-041.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\page-c.png",
+   "src_sha256": "10189100b055014853b2edb3a80dca3174b33ad7a85ceee60c3a57ba30a82f45",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (A Fox at the Shrine Gate)",
+   "src_detail": {
+    "pdf_page": 41
+   },
+   "bytes": 27926,
+   "sha256": "6cd0d2704b5c37f62466a36d4979699a38f97af9e5f82069964d4453e9dcebe9"
+  },
+  {
+   "file": "/media/sacred-japan/page-042.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\blank-c.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 42
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/sacred-japan/page-073.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\page-d.png",
+   "src_sha256": "6653007023d89c5495ea7e3268c56ad9b91795aa5006057f1977ac08e863f67b",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (Roofs and Gardens)",
+   "src_detail": {
+    "pdf_page": 73
+   },
+   "bytes": 37196,
+   "sha256": "ed3b6d9562a020c25184ef85d03888091ee2a204eb852690db123fe844a02a9e"
+  },
+  {
+   "file": "/media/sacred-japan/page-074.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\sacred-japan\\INTERIOR_KDP_CORRECTED_FONTS_EMBEDDED_V2_104pp.pdf",
+   "src_sha256": "a22a5496e25d74e45821adeb036614336dc2b59e89561267878b806b3b2405ea",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back, rendered from the interior PDF at 144 dpi (0 images, 0 text, 0 drawings, all white)",
+   "src_detail": {
+    "pdf_page": 74,
+    "render": "PyMuPDF get_pixmap(dpi=144, csRGB, alpha=False)"
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/sacred-japan/art-073-film.webp",
+   "role": "film-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\art-d.jpeg",
+   "src_sha256": "c6c9eeb6f8efffb726369df0e4360e1f2a2586f34f6e5eca9a6d82ff825ab2de",
+   "w": 417,
+   "h": 540,
+   "note": "line art of A+ page 73 (the page coloured in the film), tiled mark only, for the film",
+   "src_detail": {
+    "pdf_page": 73,
+    "xref": 112,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     0.0,
+     0.0,
+     612.0,
+     792.0
+    ],
+    "art_box_page_width_units": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 1.0,
+     "h": 1.2941176470588236
+    }
+   },
+   "bytes": 36132,
+   "sha256": "88769ccc2738ada0574e08079e9e170996421b336fd6f304d2b3db4a1edadda2"
+  },
+  {
+   "file": "/media/sacred-japan/regions-073-film.png",
+   "role": "film-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\art-d.jpeg",
+   "src_sha256": "c6c9eeb6f8efffb726369df0e4360e1f2a2586f34f6e5eca9a6d82ff825ab2de",
+   "w": 417,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 19202,
+   "sha256": "f83b6d6114c16eeb791341b11aeae4304ffe17ee7379a10171684b85505cd05b"
+  },
+  {
+   "file": "/media/sacred-japan/regions-073-film.json",
+   "role": "film-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\art-d.jpeg",
+   "src_sha256": "c6c9eeb6f8efffb726369df0e4360e1f2a2586f34f6e5eca9a6d82ff825ab2de",
+   "note": "id, src_id, px, cx, cy at the served size; film / film_order = film mask covering >= 50 % of the region; edge = touches the image border",
+   "bytes": 29423,
+   "sha256": "77da734637659e192fde1013ce1c571f7685c361ba8175196b66284923780260"
+  },
+  {
+   "file": "/media/sacred-japan/art-041.webp",
+   "role": "demo-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\sacred-japan\\sources\\pdf-page-041.jpg",
+   "src_sha256": "ffd808ace1ca8bf1229811e3dd3ca91b33bee15ab4b4f6672fce65c5263ac147",
+   "w": 417,
+   "h": 540,
+   "note": "line art of A+ page 41 (A Fox at the Shrine Gate), watermarked, for the colour demo",
+   "src_detail": {
+    "pdf_page": 41,
+    "xref": 64,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     0.0,
+     0.0,
+     612.0,
+     792.0
+    ],
+    "art_box_page_width_units": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 1.0,
+     "h": 1.2941176470588236
+    }
+   },
+   "bytes": 27208,
+   "sha256": "0ae1867e5aefeef3746186564bac8c9565ed17ccbf04cf9d000634f62f00e955"
+  },
+  {
+   "file": "/media/sacred-japan/regions-041.png",
+   "role": "demo-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\sacred-japan\\sources\\pdf-page-041.jpg",
+   "src_sha256": "ffd808ace1ca8bf1229811e3dd3ca91b33bee15ab4b4f6672fce65c5263ac147",
+   "w": 417,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 9974,
+   "sha256": "3cdef1f19737263c4622489d391f4f5b50a5c06ff0a355626dc2fb1e676a51d7"
+  },
+  {
+   "file": "/media/sacred-japan/regions-041.json",
+   "role": "demo-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\sacred-japan\\sources\\pdf-page-041.jpg",
+   "src_sha256": "ffd808ace1ca8bf1229811e3dd3ca91b33bee15ab4b4f6672fce65c5263ac147",
+   "note": "id, src_id, px, cx, cy at the served size; edge = touches the image border",
+   "bytes": 11699,
+   "sha256": "05ed1940a3f8c8da6a4c15c2939090f4b90cdc4ac11c05842be23660cd3f0bbe"
+  }
+ ],
+ "research_files": [
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\sacred-japan\\lineart-073-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\sacred-japan\\art-d.jpeg",
+   "src_sha256": "c6c9eeb6f8efffb726369df0e4360e1f2a2586f34f6e5eca9a6d82ff825ab2de",
+   "w": 1024,
+   "h": 1325,
+   "paper_level_before": 255,
+   "white_fraction_after": 0.55,
+   "note": "film page line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 662120,
+   "sha256": "def9314edc23ed6dfb25e357db8e404ba16f25c9a8c42c16836add7decf1a29f"
+  },
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\sacred-japan\\lineart-041-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\sacred-japan\\sources\\pdf-page-041.jpg",
+   "src_sha256": "ffd808ace1ca8bf1229811e3dd3ca91b33bee15ab4b4f6672fce65c5263ac147",
+   "w": 1024,
+   "h": 1325,
+   "paper_level_before": 255,
+   "white_fraction_after": 0.7569,
+   "note": "demo drawing line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 437897,
+   "sha256": "65405326099df9ba23b64836aae850db557a0cbb1ca474322a8354a79f4f075a"
+  }
+ ]
+}

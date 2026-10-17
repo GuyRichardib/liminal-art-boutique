@@ -1,0 +1,444 @@
+{
+ "decision": "D-006 (Richard, 17/10), D-008",
+ "book": "observatory",
+ "tool": "G:\\Liminal-Ink\\Motion-2026\\tools\\prepare_book_pages.py",
+ "meta": {
+  "page_px": [
+   1224,
+   1584
+  ],
+  "aplus_public": [
+   19,
+   29,
+   47,
+   93
+  ],
+  "back_samples": [
+   3,
+   81
+  ],
+  "film": {
+   "pdf_page": 93,
+   "art_native_px": [
+    1103,
+    1426
+   ],
+   "art_box_page_width_units": {
+    "x": 0.04411764705882353,
+    "y": 0.05767702588848039,
+    "w": 0.9117647058823529,
+    "h": 1.1787637947431577
+   },
+   "bbox_pt": [
+    27.0,
+    35.2983,
+    585.0,
+    756.7018
+   ],
+   "masks": 8,
+   "colours": [
+    "#82CBB3",
+    "#A19BCB",
+    "#68B5BE",
+    "#A8BBC5",
+    "#BE8F65",
+    "#9DB39A",
+    "#D4DEDF",
+    "#C6DFE3"
+   ],
+   "mask_source": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\observatory\\palette"
+  },
+  "demos": {
+   "81": {
+    "kind": "back",
+    "caption": "A lunar specimen",
+    "art_native_px": [
+     2550,
+     3300
+    ],
+    "bbox_pt": [
+     27.0,
+     34.9412,
+     585.0,
+     757.0588
+    ],
+    "film_masks": null
+   }
+  },
+  "cap_h": 540,
+  "cover_w": 640,
+  "region_rule": "scipy.ndimage.label(min(RGB) >= 200), 4-connectivity, raster order, lines = -1; regions kept when area > 500 px x (native area / 2083x2696); served map = nearest-neighbour sample",
+  "tappable_rule": "closed region (not touching the border, >= 0.03 % of the image) with >= 400 px at 540 px high",
+  "provenance": [
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\SOURCE_MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\aplus\\observatory\\MANIFEST.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\observatory\\COVER_KDP_RECEIPT.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\observatory\\book-config.json",
+   "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\books\\observatory\\palette\\MASK_RECEIPT.json"
+  ],
+  "stats": {
+   "film-093": {
+    "native_px": [
+     1103,
+     1426
+    ],
+    "served_px": [
+     418,
+     540
+    ],
+    "components": 1345,
+    "regions_in_map": 202,
+    "edge_regions_in_map": 1,
+    "closed_regions": 101,
+    "closed_fraction": 0.2286,
+    "tappable": 34,
+    "tappable_in_served_map": 34,
+    "large_63px": 0,
+    "line_fraction": 0.0714,
+    "edge_fraction": 0.6746,
+    "ink_bbox_px": [
+     48,
+     28,
+     1102,
+     1425
+    ],
+    "film_regions": 35,
+    "film_mask_checks": [
+     {
+      "mask": 0,
+      "pixels": 50791,
+      "components": 4,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 1,
+      "pixels": 62239,
+      "components": 5,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 2,
+      "pixels": 72420,
+      "components": 8,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 3,
+      "pixels": 11884,
+      "components": 4,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 4,
+      "pixels": 3860,
+      "components": 1,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 5,
+      "pixels": 26725,
+      "components": 7,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 6,
+      "pixels": 14747,
+      "components": 3,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     },
+     {
+      "mask": 7,
+      "pixels": 31134,
+      "components": 3,
+      "partial_components": 0,
+      "pixels_on_lines": 0
+     }
+    ]
+   },
+   "demo-081": {
+    "native_px": [
+     2550,
+     3300
+    ],
+    "served_px": [
+     417,
+     540
+    ],
+    "components": 343,
+    "regions_in_map": 177,
+    "edge_regions_in_map": 8,
+    "closed_regions": 121,
+    "closed_fraction": 0.5887,
+    "tappable": 48,
+    "tappable_in_served_map": 48,
+    "large_63px": 7,
+    "line_fraction": 0.0733,
+    "edge_fraction": 0.328,
+    "ink_bbox_px": [
+     74,
+     0,
+     2478,
+     3299
+    ],
+    "film_regions": 0
+   }
+  }
+ },
+ "files": [
+  {
+   "file": "/media/observatory/cover.webp",
+   "role": "cover",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\observatory-full-color-front.png",
+   "src_sha256": "5d38868027a5dc67739e458e293e2beb8c4d8cde53d30293a632b627556fcaf3",
+   "w": 640,
+   "h": 827,
+   "note": "front cover, public on Amazon",
+   "bytes": 186636,
+   "sha256": "0cda17947a63c3d812e0518ee01f70dc02a67a29e2f38c1f9b4c19c3f2f00fe4"
+  },
+  {
+   "file": "/media/observatory/page-019.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\page-a.png",
+   "src_sha256": "88b3c9ebb01f7b2c06f65882475e48e02e89dc13bd0ee76f857cf007bfab7f60",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (At the Telescope)",
+   "src_detail": {
+    "pdf_page": 19
+   },
+   "bytes": 42548,
+   "sha256": "bc578de0b11a3ab574c299317a462f10e994acbcb9ea4dddec7969b30cc0b532"
+  },
+  {
+   "file": "/media/observatory/page-020.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\blank-a.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 20
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/observatory/page-029.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\page-b.png",
+   "src_sha256": "f578fa53030d9d82cae3ed1ce123e8b8bc1739ada2259c7cadfa6bab7e7655b6",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (The Optics Workbench)",
+   "src_detail": {
+    "pdf_page": 29
+   },
+   "bytes": 51124,
+   "sha256": "67c68c70ddc29004e90b053fcbcc7c9fead14da635171f05200529d0c226e165"
+  },
+  {
+   "file": "/media/observatory/page-030.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\blank-b.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 30
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/observatory/page-047.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\page-c.png",
+   "src_sha256": "82a251a177edf94eccf222c4ce605c6fa18c00a82e87ada15d934019c6324dd1",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (An Outdoor Projection Setup)",
+   "src_detail": {
+    "pdf_page": 47
+   },
+   "bytes": 36934,
+   "sha256": "2794853f8e958f763a3bdd0d09a9a146e42695a7864212c9b8cfabea829d29cf"
+  },
+  {
+   "file": "/media/observatory/page-048.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\blank-c.png",
+   "src_sha256": "9af9a0d15aceb33e2d68693956d38929aca475a8c03ab7fa899e0827ce96b3e1",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back",
+   "src_detail": {
+    "pdf_page": 48
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/observatory/page-093.webp",
+   "role": "page-aplus",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\page-d.png",
+   "src_sha256": "67c40463af46522ac023e58cab8e37af87f1988600aefd0ba38cd4f97345c492",
+   "w": 417,
+   "h": 540,
+   "note": "A+ public page, watermarked (An Aurora Above the Observatory)",
+   "src_detail": {
+    "pdf_page": 93
+   },
+   "bytes": 36098,
+   "sha256": "9de96893ada1783d1f5688d7c2367dd57f8666387b9fa9c172b4089ece3f9799"
+  },
+  {
+   "file": "/media/observatory/page-094.webp",
+   "role": "page-blank",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\amazon-handoff-20261004\\books\\observatory\\INTERIOR_KDP_CORRECTED_FONTS_EMBEDDED_V2_104pp.pdf",
+   "src_sha256": "7592367817412ca895baa4f23baeba5d012c166c03c36363ea2ff7cf296175ea",
+   "w": 417,
+   "h": 540,
+   "note": "true blank back, rendered from the interior PDF at 144 dpi (0 images, 0 text, 0 drawings, all white)",
+   "src_detail": {
+    "pdf_page": 94,
+    "render": "PyMuPDF get_pixmap(dpi=144, csRGB, alpha=False)"
+   },
+   "bytes": 480,
+   "sha256": "66906d0983f09f833efddebe5a9fc15818df93c3820b54817e0ec9720509e16d"
+  },
+  {
+   "file": "/media/observatory/art-093-film.webp",
+   "role": "film-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\art-d.png",
+   "src_sha256": "0f7d200ad96f49ff29dad01305a1626cf5f9293c2612685496449f4baf280db2",
+   "w": 418,
+   "h": 540,
+   "note": "line art of A+ page 93 (the page coloured in the film), tiled mark only, for the film",
+   "src_detail": {
+    "pdf_page": 93,
+    "xref": 298,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     27.0,
+     35.2983,
+     585.0,
+     756.7018
+    ],
+    "art_box_page_width_units": {
+     "x": 0.04411764705882353,
+     "y": 0.05767702588848039,
+     "w": 0.9117647058823529,
+     "h": 1.1787637947431577
+    }
+   },
+   "bytes": 39900,
+   "sha256": "229cee72736e463510d47697a2f6a1fb2829679093aa060223f1932d05bab5a6"
+  },
+  {
+   "file": "/media/observatory/regions-093-film.png",
+   "role": "film-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\art-d.png",
+   "src_sha256": "0f7d200ad96f49ff29dad01305a1626cf5f9293c2612685496449f4baf280db2",
+   "w": 418,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 21879,
+   "sha256": "7adae7629f5089979a65b04f1eb1d980a4ff2e562cabc864b8fe5230f82143f1"
+  },
+  {
+   "file": "/media/observatory/regions-093-film.json",
+   "role": "film-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\art-d.png",
+   "src_sha256": "0f7d200ad96f49ff29dad01305a1626cf5f9293c2612685496449f4baf280db2",
+   "note": "id, src_id, px, cx, cy at the served size; film / film_order = film mask covering >= 50 % of the region; edge = touches the image border",
+   "bytes": 19373,
+   "sha256": "5a3ef2ef7ea738434a375fbda1d98b2dbacf5b5e1e36485e78941ccf4bc08550"
+  },
+  {
+   "file": "/media/observatory/art-081.webp",
+   "role": "demo-lineart",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\samples\\observatory-page-081-original.jpg",
+   "src_sha256": "c1517609dba7364820d2b7b9b4d6b4e66c0a0c4c8f27c24a8864f74f212dc0e7",
+   "w": 417,
+   "h": 540,
+   "note": "line art of back-cover sample 81 (A lunar specimen), watermarked, for the colour demo",
+   "src_detail": {
+    "pdf_page": 81,
+    "xref": 124,
+    "match": "same stream bytes",
+    "bbox_pt": [
+     27.0,
+     34.9412,
+     585.0,
+     757.0588
+    ],
+    "art_box_page_width_units": {
+     "x": 0.04411764705882353,
+     "y": 0.0570935018701491,
+     "w": 0.9117647058823529,
+     "h": 1.1799307430491728
+    }
+   },
+   "bytes": 40198,
+   "sha256": "6fad030768a97e1fde7c165de74737c87a8e33b399c64f9e3d4f72a44c6b8277"
+  },
+  {
+   "file": "/media/observatory/regions-081.png",
+   "role": "demo-regions",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\samples\\observatory-page-081-original.jpg",
+   "src_sha256": "c1517609dba7364820d2b7b9b4d6b4e66c0a0c4c8f27c24a8864f74f212dc0e7",
+   "w": 417,
+   "h": 540,
+   "note": "region ids (R + 256*G), 0 = line or dropped speck; nearest-neighbour from full-res labels",
+   "bytes": 19526,
+   "sha256": "e2068587a6c798de099abe2d022f599f64afc02746caf67b2b0d34f7a674562e"
+  },
+  {
+   "file": "/media/observatory/regions-081.json",
+   "role": "demo-regions-json",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\samples\\observatory-page-081-original.jpg",
+   "src_sha256": "c1517609dba7364820d2b7b9b4d6b4e66c0a0c4c8f27c24a8864f74f212dc0e7",
+   "note": "id, src_id, px, cx, cy at the served size; edge = touches the image border",
+   "bytes": 15696,
+   "sha256": "970865a2f0dddca10e7e8e9e383485277aa0a1f1a3c1dc6e36ee7b845f1d1db6"
+  }
+ ],
+ "research_files": [
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\observatory\\lineart-093-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\marketing-20261005\\motion-series-20261006\\assets\\observatory\\art-d.png",
+   "src_sha256": "0f7d200ad96f49ff29dad01305a1626cf5f9293c2612685496449f4baf280db2",
+   "w": 1024,
+   "h": 1324,
+   "paper_level_before": 254,
+   "white_fraction_after": 0.4939,
+   "note": "film page line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 882737,
+   "sha256": "bd280a6b395121629e453e4ad3d2d6a11b9fbbb4527b1531b16e18078c9dfae9"
+  },
+  {
+   "file": "G:\\Liminal-Ink\\Motion-2026\\research\\colourist\\observatory\\lineart-081-1024.png",
+   "role": "lineart-colourist",
+   "src": "S:\\Liminal-Ink-Reprise\\20261002-The-Quiet-Greenhouse\\workflow\\outputs\\art-direction-20261004\\published\\samples\\observatory-page-081-original.jpg",
+   "src_sha256": "c1517609dba7364820d2b7b9b4d6b4e66c0a0c4c8f27c24a8864f74f212dc0e7",
+   "w": 1024,
+   "h": 1325,
+   "paper_level_before": 255,
+   "white_fraction_after": 0.4911,
+   "note": "demo drawing line art, unwatermarked, for the second eye (D-009); not served",
+   "bytes": 496988,
+   "sha256": "3d08045ac2ab8eb917261a4b27f898fc9d0a84b0ee22607b08b57ce871585c68"
+  }
+ ]
+}

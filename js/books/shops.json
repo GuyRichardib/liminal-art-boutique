@@ -1,0 +1,87 @@
+{
+  "slug": "shops",
+  "title": "Little Impossible Shops: 50 Enchanting Places to Color",
+  "provenance": "Values of the approved Shops film (release-20261006/montage.js, Claude Opus 5.5 05/10, masks Codex 06/10) and of its 17/10 web copy (site media capped at 540 px by D-006, colour layers by tools/colourist.py, swatch colours of the 'natural' palette, hand-made scroll warp). The hand-authored region polygons of 05/10 are not drawn since Codex's 06/10 mask correction and are not carried here.",
+  "duration": 20,
+  "page_px": [1224, 1584],
+  "cover_aspect": [1426, 1103],
+  "art": { "pt": [56.052310943603516, 87, 555.9476928710938, 734], "page_pt_w": 612 },
+  "art_px": [2083, 2696],
+  "max_image_h": 540,
+  "pdf_pages": [19, 25, 73, 47],
+  "media": {
+    "base": "/media/shops/",
+    "cover": "cover.webp",
+    "art": "art-047-film.webp",
+    "pages": {
+      "p019": "page-019.webp",
+      "p020": "page-020.webp",
+      "p025": "page-025.webp",
+      "p026": "page-026.webp",
+      "p047": "page-047.webp",
+      "p073": "page-073.webp",
+      "p074": "page-074.webp"
+    },
+    "masks": "mask-"
+  },
+  "colour": {
+    "json": "film-colour.json",
+    "prefix": "film-colour-",
+    "palettes": { "natural": "film-colour-natural-", "storybook": "film-colour-storybook-" }
+  },
+  "turns": [
+    { "t0": 4.75, "t1": 6.00, "front": "p019", "back": "p020", "next": "p025" },
+    { "t0": 7.45, "t1": 8.70, "front": "p025", "back": "p026", "next": "p073" },
+    { "t0": 11.80, "t1": 13.05, "front": "p073", "back": "p074", "next": "p047" }
+  ],
+  "coloured": "p047",
+  "camera": [
+    [0, "R"], [4.70, "R"], [5.50, "S"], [6.10, "S"], [6.75, "R"],
+    [7.40, "R"], [8.20, "S"], [8.75, "S"], [9.70, "D"], [11.00, "D2"], [11.65, "R"],
+    [11.75, "R"], [12.50, "S"], [13.05, "S"], [13.60, "R"],
+    [14.05, "R"], [14.80, "A"], [20, "A"]
+  ],
+  "camera_overrides": {},
+  "timeline": {
+    "color_start": 14.0,
+    "book_in": [2.30, 3.25],
+    "book_out": [17.50, 18.20],
+    "cover_out": [2.20, 3.10],
+    "cover_in": [17.70, 18.50]
+  },
+  "colors": { "forest": "#2F4636", "amber": "#A8742F", "muted": "#5F6656" },
+  "captions": [
+    { "tin": 0.35, "tout": 2.05, "box": "capCover", "main": "A quiet world of color" },
+    { "tin": 3.15, "tout": 4.95, "box": "capBook", "main": "50 unique scenes" },
+    { "tin": 5.45, "tout": 7.55, "box": "capBook", "main": "Single-sided coloring pages" },
+    { "tin": 14.25, "tout": 17.45, "box": "capLabel", "label": "Palette preview" },
+    { "tin": 18.35, "tout": 99, "box": "capCover", "kicker": "Liminal Ink", "main": "A quiet world of color",
+      "sub": "50 unique scenes · Single-sided coloring pages" }
+  ],
+  "palette": {
+    "mask_space": [1545, 2000],
+    "radial_reach": 2100,
+    "region_dur": 0.62,
+    "sweep": 0.78,
+    "mask_canvas_w": 420,
+    "regions": [
+      { "c": "#D9483B", "a": 0.90, "t0": 14.55, "seed": [790, 610] },
+      { "c": "#F7E7C6", "a": 0.90, "t0": 14.65, "seed": [790, 300] },
+      { "c": "#E9C99A", "a": 0.95, "t0": 15.05, "seed": [790, 330] },
+      { "c": "#A9CFA5", "a": 0.85, "t0": 15.25, "seed": [820, 1400] },
+      { "c": "#F7C35F", "a": 0.42, "t0": 15.50, "seed": [905, 980] },
+      { "c": "#4FA392", "a": 0.80, "t0": 15.70, "seed": [930, 1020] },
+      { "c": "#A889DB", "a": 0.85, "t0": 15.85, "seed": [418, 1180] },
+      { "c": "#B97A44", "a": 0.85, "t0": 16.00, "seed": [930, 1262] },
+      { "c": "#C9643F", "a": 0.80, "t0": 16.10, "seed": [240, 925] },
+      { "c": "#C4BEB2", "a": 0.85, "t0": 16.20, "seed": [228, 1420] },
+      { "c": "#E9B949", "a": 0.85, "t0": 16.30, "seed": [780, 1760] }
+    ]
+  },
+  "scroll": {
+    "t_end": 17.2,
+    "warp": [[0, 0], [0.05, 1.9], [0.15, 3.3], [0.2, 4.7], [0.3, 6.1], [0.35, 7.4], [0.45, 8.8], [0.5, 9.6],
+      [0.58, 11.0], [0.63, 11.75], [0.73, 13.1], [0.78, 14.0], [1, 17.2]],
+    "track": { "portrait": "640svh", "landscape": "600svh" }
+  }
+}

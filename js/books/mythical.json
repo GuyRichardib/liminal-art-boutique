@@ -1,0 +1,278 @@
+{
+ "slug": "mythical",
+ "title": "Mythical Creatures & Legendary Beasts: 50 Bold & Easy Fantasy Coloring Pages for Adults",
+ "provenance": "Values of the published 06/10 film motion-series-20261006/books/mythical-creatures/montage.js (adapted by Codex from the Shops composition), recouped with its book-config.json; page numbers from SOURCE_MANIFEST.json (A+ pages admitted by D-006, their true blank backs). Written by proofs/montage-engine/make_book_configs.py.",
+ "duration": 20,
+ "page_px": [
+  1224,
+  1584
+ ],
+ "cover_aspect": 1.2949183303085299,
+ "art": {
+  "x": 0.0,
+  "y": 0.0,
+  "w": 1.0,
+  "h": 1.2941176470588236
+ },
+ "art_px": [
+  2550,
+  3300
+ ],
+ "max_image_h": 540,
+ "pdf_pages": [
+  7,
+  33,
+  73,
+  89
+ ],
+ "media": {
+  "base": "/media/mythical/",
+  "cover": "cover.webp",
+  "art": "art-089-film.webp",
+  "pages": {
+   "p007": "page-007.webp",
+   "p008": "page-008.webp",
+   "p033": "page-033.webp",
+   "p034": "page-034.webp",
+   "p073": "page-073.webp",
+   "p074": "page-074.webp",
+   "p089": "page-089.webp"
+  },
+  "masks": null,
+  "film_regions": "regions-089-film"
+ },
+ "colour": {
+  "json": "film-colour.json",
+  "prefix": "film-colour-",
+  "palettes": {}
+ },
+ "turns": [
+  {
+   "t0": 4.75,
+   "t1": 6.0,
+   "front": "p007",
+   "back": "p008",
+   "next": "p033"
+  },
+  {
+   "t0": 7.45,
+   "t1": 8.7,
+   "front": "p033",
+   "back": "p034",
+   "next": "p073"
+  },
+  {
+   "t0": 11.8,
+   "t1": 13.05,
+   "front": "p073",
+   "back": "p074",
+   "next": "p089"
+  }
+ ],
+ "coloured": "p089",
+ "camera": [
+  [
+   0,
+   "R"
+  ],
+  [
+   4.7,
+   "R"
+  ],
+  [
+   5.5,
+   "S"
+  ],
+  [
+   6.1,
+   "S"
+  ],
+  [
+   6.75,
+   "R"
+  ],
+  [
+   7.4,
+   "R"
+  ],
+  [
+   8.2,
+   "S"
+  ],
+  [
+   8.75,
+   "S"
+  ],
+  [
+   9.7,
+   "D"
+  ],
+  [
+   11.0,
+   "D2"
+  ],
+  [
+   11.65,
+   "R"
+  ],
+  [
+   11.75,
+   "R"
+  ],
+  [
+   12.5,
+   "S"
+  ],
+  [
+   13.05,
+   "S"
+  ],
+  [
+   13.6,
+   "R"
+  ],
+  [
+   14.05,
+   "R"
+  ],
+  [
+   14.8,
+   "A"
+  ],
+  [
+   20,
+   "A"
+  ]
+ ],
+ "camera_overrides": {},
+ "timeline": {
+  "color_start": 14.0,
+  "book_in": [
+   2.3,
+   3.25
+  ],
+  "book_out": [
+   17.5,
+   18.2
+  ],
+  "cover_out": [
+   2.2,
+   3.1
+  ],
+  "cover_in": [
+   17.7,
+   18.5
+  ]
+ },
+ "colors": {
+  "forest": "#3B3153",
+  "amber": "#AD7748",
+  "muted": "#6D5D78"
+ },
+ "captions": [
+  {
+   "tin": 0.35,
+   "tout": 2.05,
+   "box": "capCover",
+   "main": "Let a legend take color"
+  },
+  {
+   "tin": 3.15,
+   "tout": 4.95,
+   "box": "capBook",
+   "main": "50 unique scenes"
+  },
+  {
+   "tin": 5.45,
+   "tout": 7.55,
+   "box": "capBook",
+   "main": "Single-sided coloring pages"
+  },
+  {
+   "tin": 14.25,
+   "tout": 17.45,
+   "box": "capLabel",
+   "label": "Palette preview"
+  },
+  {
+   "tin": 18.35,
+   "tout": 99,
+   "box": "capCover",
+   "kicker": "Liminal Ink",
+   "main": "Let a legend take color",
+   "sub": "50 unique scenes · Single-sided coloring pages"
+  }
+ ],
+ "palette": {
+  "mask_space": [
+   2550,
+   3300
+  ],
+  "radial_reach": "hypot",
+  "region_dur": 0.62,
+  "sweep": 0.78,
+  "mask_canvas_w": 420,
+  "regions": [
+   {
+    "c": "#B8D8DA",
+    "a": 0.84,
+    "t0": 14.3,
+    "seed": [
+     1234,
+     1237
+    ]
+   },
+   {
+    "c": "#B8C5A5",
+    "a": 0.84,
+    "t0": 14.700000000000001,
+    "seed": [
+     989,
+     1242
+    ]
+   },
+   {
+    "c": "#D8AD76",
+    "a": 0.84,
+    "t0": 15.100000000000001,
+    "seed": [
+     1779,
+     944
+    ]
+   },
+   {
+    "c": "#C48A9C",
+    "a": 0.84,
+    "t0": 15.5,
+    "seed": [
+     1308,
+     1429
+    ]
+   },
+   {
+    "c": "#EBD3A2",
+    "a": 0.84,
+    "t0": 15.9,
+    "seed": [
+     1749,
+     1797
+    ]
+   },
+   {
+    "c": "#A89AC1",
+    "a": 0.84,
+    "t0": 16.3,
+    "seed": [
+     1507,
+     2092
+    ]
+   }
+  ]
+ },
+ "scroll": {
+  "track": {
+   "portrait": "640svh",
+   "landscape": "600svh"
+  }
+ }
+}

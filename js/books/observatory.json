@@ -1,0 +1,296 @@
+{
+ "slug": "observatory",
+ "title": "Observatory After Hours: 50 Quiet Cosmic Moments to Color",
+ "provenance": "Values of the published 06/10 film motion-series-20261006/books/observatory/montage.js (adapted by Codex from the Shops composition), recouped with its book-config.json; page numbers from SOURCE_MANIFEST.json (A+ pages admitted by D-006, their true blank backs). Written by proofs/montage-engine/make_book_configs.py.",
+ "duration": 20,
+ "page_px": [
+  1224,
+  1584
+ ],
+ "cover_aspect": 1.2928377153218495,
+ "art": {
+  "x": 0.04411764705882353,
+  "y": 0.05767702588848039,
+  "w": 0.9117647058823529,
+  "h": 1.1787637947431577
+ },
+ "art_px": [
+  1103,
+  1426
+ ],
+ "max_image_h": 540,
+ "pdf_pages": [
+  19,
+  29,
+  47,
+  93
+ ],
+ "media": {
+  "base": "/media/observatory/",
+  "cover": "cover.webp",
+  "art": "art-093-film.webp",
+  "pages": {
+   "p019": "page-019.webp",
+   "p020": "page-020.webp",
+   "p029": "page-029.webp",
+   "p030": "page-030.webp",
+   "p047": "page-047.webp",
+   "p048": "page-048.webp",
+   "p093": "page-093.webp"
+  },
+  "masks": null,
+  "film_regions": "regions-093-film"
+ },
+ "colour": {
+  "json": "film-colour.json",
+  "prefix": "film-colour-",
+  "palettes": {}
+ },
+ "turns": [
+  {
+   "t0": 4.75,
+   "t1": 6.0,
+   "front": "p019",
+   "back": "p020",
+   "next": "p029"
+  },
+  {
+   "t0": 7.45,
+   "t1": 8.7,
+   "front": "p029",
+   "back": "p030",
+   "next": "p047"
+  },
+  {
+   "t0": 11.8,
+   "t1": 13.05,
+   "front": "p047",
+   "back": "p048",
+   "next": "p093"
+  }
+ ],
+ "coloured": "p093",
+ "camera": [
+  [
+   0,
+   "R"
+  ],
+  [
+   4.7,
+   "R"
+  ],
+  [
+   5.5,
+   "S"
+  ],
+  [
+   6.1,
+   "S"
+  ],
+  [
+   6.75,
+   "R"
+  ],
+  [
+   7.4,
+   "R"
+  ],
+  [
+   8.2,
+   "S"
+  ],
+  [
+   8.75,
+   "S"
+  ],
+  [
+   9.7,
+   "D"
+  ],
+  [
+   11.0,
+   "D2"
+  ],
+  [
+   11.65,
+   "R"
+  ],
+  [
+   11.75,
+   "R"
+  ],
+  [
+   12.5,
+   "S"
+  ],
+  [
+   13.05,
+   "S"
+  ],
+  [
+   13.6,
+   "R"
+  ],
+  [
+   14.05,
+   "R"
+  ],
+  [
+   14.8,
+   "A"
+  ],
+  [
+   20,
+   "A"
+  ]
+ ],
+ "camera_overrides": {},
+ "timeline": {
+  "color_start": 14.0,
+  "book_in": [
+   2.3,
+   3.25
+  ],
+  "book_out": [
+   17.5,
+   18.2
+  ],
+  "cover_out": [
+   2.2,
+   3.1
+  ],
+  "cover_in": [
+   17.7,
+   18.5
+  ]
+ },
+ "colors": {
+  "forest": "#243C50",
+  "amber": "#AD844B",
+  "muted": "#556A73"
+ },
+ "captions": [
+  {
+   "tin": 0.35,
+   "tout": 2.05,
+   "box": "capCover",
+   "main": "Find your quiet corner of the cosmos"
+  },
+  {
+   "tin": 3.15,
+   "tout": 4.95,
+   "box": "capBook",
+   "main": "50 unique scenes"
+  },
+  {
+   "tin": 5.45,
+   "tout": 7.55,
+   "box": "capBook",
+   "main": "Single-sided coloring pages"
+  },
+  {
+   "tin": 14.25,
+   "tout": 17.45,
+   "box": "capLabel",
+   "label": "Palette preview"
+  },
+  {
+   "tin": 18.35,
+   "tout": 99,
+   "box": "capCover",
+   "kicker": "Liminal Ink",
+   "main": "Find your quiet corner of the cosmos",
+   "sub": "50 unique scenes · Single-sided coloring pages"
+  }
+ ],
+ "palette": {
+  "mask_space": [
+   1103,
+   1426
+  ],
+  "radial_reach": "hypot",
+  "region_dur": 0.62,
+  "sweep": 0.78,
+  "mask_canvas_w": 420,
+  "regions": [
+   {
+    "c": "#82CBB3",
+    "a": 0.84,
+    "t0": 14.3,
+    "seed": [
+     163,
+     408
+    ]
+   },
+   {
+    "c": "#A19BCB",
+    "a": 0.84,
+    "t0": 14.585714285714287,
+    "seed": [
+     644,
+     303
+    ]
+   },
+   {
+    "c": "#68B5BE",
+    "a": 0.84,
+    "t0": 14.871428571428572,
+    "seed": [
+     902,
+     444
+    ]
+   },
+   {
+    "c": "#A8BBC5",
+    "a": 0.84,
+    "t0": 15.157142857142858,
+    "seed": [
+     355,
+     776
+    ]
+   },
+   {
+    "c": "#BE8F65",
+    "a": 0.84,
+    "t0": 15.442857142857143,
+    "seed": [
+     817,
+     883
+    ]
+   },
+   {
+    "c": "#9DB39A",
+    "a": 0.84,
+    "t0": 15.72857142857143,
+    "seed": [
+     158,
+     994
+    ]
+   },
+   {
+    "c": "#D4DEDF",
+    "a": 0.84,
+    "t0": 16.014285714285716,
+    "seed": [
+     773,
+     738
+    ]
+   },
+   {
+    "c": "#C6DFE3",
+    "a": 0.84,
+    "t0": 16.3,
+    "seed": [
+     738,
+     870
+    ]
+   }
+  ]
+ },
+ "scroll": {
+  "track": {
+   "portrait": "640svh",
+   "landscape": "600svh"
+  }
+ }
+}
